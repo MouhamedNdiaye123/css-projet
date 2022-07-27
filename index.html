@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chez dg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--BARE DE NAVIGATION-->
+    <nav>
+        <div>
+            <h1>chez <span>dg</span></h1>
+        </div>
+    
+        <ul>
+            <li><a href="#">accueil</a></li>
+            <li><a href="#">a propos</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="commandes.html">commander</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="search" placeholder="Rechercher">
+        </div>
+    </nav>
+
+    <!--HEADER-->
+
+    <header>
+        <div class="title">
+            <h1>bienvenue chez p'tit dg</h1>
+        </div>
+        <button>Naviguer</button>
+    </header>
+
+    <main>
+
+        <section class="section1">
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/xs max.jpg" alt="iphoneXsMax">
+                    <h4>Iphone Xs Max</h4>
+                    <p>210.000fra</p>
+                </div>
+
+                <div class="card">
+                    <img src="./images/iphn12.jpg" alt="iphone12">
+                    <h4>Iphone 12</h4>
+                    <p>290.000fra</p>
+                </div>
+
+                <div class="card">
+                    <img src="./images/iphn13.jpg" alt="iphone13">
+                    <h4>Iphone 13</h4>
+                    <p>350.000fra</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+    
+
+    <section class="contact">
+        <h2 id="contact">Nous-Contacter</h2>
+
+        <form>
+            <caption>
+                <label for="name">Nom *</label><br>
+                <input type="text" id="name" placeholder="Nom"><br>
+
+                <label for="lstname">Prenom *</label><br>
+                <input type="text" id="lstname" placeholder="Prenom"><br>
+
+                <label for="email">Email *</label><br>
+                <input type="email" id="email" placeholder="E-mail"><br>
+
+                <label for="number">Telephone *</label><br>
+                <input type="number" id="number" placeholder="Telephone" min="0"><br>
+
+                <input type="submit" value="Envoyer">
+
+            </caption>
+        </form>
+    </section>
+
+        <!--PIED DE PAGE-->
+
+    <footer>
+        <p>Tout droit reservee &copy; 2022,<a href="index.html">Chez DG</a></p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

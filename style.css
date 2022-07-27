@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* TITLE */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    background-color: rgb(238, 232, 232);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+nav div h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+nav h1 span{
+    color: orangered;
+    font-size: 40px;
+}
+nav ul li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+nav input{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}
+
+/* HEADER */
+header{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    text-transform: capitalize;
+    color: rgb(26, 24, 24);
+}
+header button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(26, 24, 24);
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(247, 236, 236);
+    margin: 5px auto;
+}
+
+main{
+    margin: 80px auto;
+}
+
+/* SECTION 1 */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 100px;
+}
+.card{
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+
+}
+.card img{
+    width: 100%;
+}
+
+
+
+.contact h2{
+
+    font-size: 25px;
+}
+.contact {
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    padding: 10px 20px;
+}
+.contact input{
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+/* PIED DE PAGE */
+
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    margin: 20px auto;
+}
+footer a{
+    text-decoration: none;
+    color: orangered;
+    margin-right: 20px;
+}
+footer a:hover{
+    color: black;
+    border-bottom: 1px solid orangered;
+}
